@@ -70,7 +70,7 @@ In this first application, you'll create an ASP.NET Core web application that al
 
 1. Open the folder in Visual Studio code by executing from the project directory: `code .`
 
-### Configure the web application with the Azure AD application you created
+### a.Configure the web application with the Azure AD application you created
 
 1. Locate and open the **./appsettings.json** file in the ASP.NET Core project.
 
@@ -80,7 +80,7 @@ In this first application, you'll create an ASP.NET Core web application that al
 
 1. Set the **AzureAd.ClientId** property to the **Application (client) ID** you copied when creating the Azure AD application in the previous step.
 
-### Update the web application's launch configuration
+### b.Update the web application's launch configuration
 
 1. Locate and open the **./Properties/launchSettings.json** file in the ASP.NET Core project.
 
@@ -88,7 +88,7 @@ In this first application, you'll create an ASP.NET Core web application that al
 
 1. Set the **iisSettings.iisExpress.sslPort** property to **3007**.
 
-### Update the user experience
+### c.Update the user experience
 
 1. Finally, update the user experience of the web application to display all the claims in the OpenID Connect ID token.
 
@@ -240,7 +240,7 @@ In this second application, you'll create an ASP.NET Core web application that a
         </table>
     </div>
     }
-     ```
+    ```
 
 1. Save the above all changes.
 

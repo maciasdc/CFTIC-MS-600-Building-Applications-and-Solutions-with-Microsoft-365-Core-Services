@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dripdripdrop.sharepoint.com/sites/Ventas/Lists/Command%20Set/AllItems.aspx",
+      "customActions": {
+        "d578945d-8b67-4967-bebc-a5b72f19afd5": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "commandSetDemo": {
+      "pageUrl": "https://dripdripdrop.sharepoint.com/sites/Ventas/Lists/Command%20Set/AllItems.aspx",
+      "customActions": {
+        "d578945d-8b67-4967-bebc-a5b72f19afd5": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
